@@ -11,7 +11,7 @@ def get_device_name(mac_address):
         return "Bilinmiyor"
     except Exception as e:
         return "Bilinmiyor"
-
+#wifi arayüzünüzü burada belirtin:örnek wlan0
 def get_mac_and_distance():
     try:
         result = subprocess.check_output(['iw', 'dev', 'wlan0', 'station', 'dump']).decode()
