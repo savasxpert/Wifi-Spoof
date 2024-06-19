@@ -18,3 +18,7 @@ To run the Python script, enter the following commands in the terminal:
 
 python3 wifi_scanner.py
 
+
+
+This script basically obtains the MAC addresses and device names of the devices on the network. Additional work can be done to calculate the distance from the access point. Also, more detailed information can be collected using platform specific commands and libraries.
+
