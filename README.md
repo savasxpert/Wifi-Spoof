@@ -16,7 +16,7 @@ This tool shows the MAC addresses, device names and distances from the access po
 To run the Python script, enter the following commands in the terminal:
 
 
-python3 wifi_scanner.py
+python3 wifi_spoof.py
 
 
 
